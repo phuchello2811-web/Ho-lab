@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#121d31">
+<meta name="description" content="HóaLab - Học Hóa học với bài giảng, bảng tuần hoàn, trắc nghiệm và phòng thí nghiệm tương tác.">
+<title>HóaLab — Hóa học thật dễ hiểu</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+ <div class="brand"><span class="mark" data-svg-icon="flask-conical" data-svg-size="27"></span><span>HóaLab<small>HỌC LÀ HIỂU</small></span></div>
+ <div class="side-label">KHÁM PHÁ</div>
+ <nav class="menu" aria-label="Điều hướng">
+  <button class="nav active" data-page="home" title="Tổng quan"><span data-svg-icon="layout-dashboard"></span><b>Tổng quan</b></button>
+  <button class="nav" data-page="lessons" title="Bài học"><span data-svg-icon="book-open"></span><b>Bài học</b></button>
+  <button class="nav" data-page="periodic" title="Bảng tuần hoàn"><span data-svg-icon="table-2"></span><b>Bảng tuần hoàn</b></button>
+  <button class="nav" data-page="quiz" title="Trắc nghiệm"><span data-svg-icon="clipboard-check"></span><b>Trắc nghiệm</b></button>
+  <button class="nav" data-page="lab" title="Thí nghiệm ảo"><span data-svg-icon="flask-conical"></span><b>Thí nghiệm ảo</b></button>
+ </nav>
+ <div class="sidebar-bottom"><div class="coach"><div class="coach-icon" data-svg-icon="test-tube" data-svg-size="32"></div><b>Hóa học thú vị hơn mỗi ngày!</b><p>Học một bài ngắn, thử một thí nghiệm và chinh phục kiến thức.</p><button data-action="start-quiz">Luyện tập ngay <span class="icon-trailing" data-svg-icon="arrow-up-right" data-svg-size="15"></span></button></div><small>© 2026 HóaLab</small></div>
+</aside>
+<main class="main"><header class="top"><span>HóaLab <em>/</em> <strong id="crumb">Tổng quan</strong></span><div class="top-right"><span class="top-pill"><span data-svg-icon="sparkles" data-svg-size="15"></span> Học theo nhịp của bạn</span><button class="theme-toggle" data-action="toggle-theme" aria-label="Đổi giao diện sáng tối"><span id="theme-toggle-icon" data-svg-icon="moon-star" data-svg-size="18"></span><b id="theme-toggle-label">Dark</b></button><span class="avatar">H</span></div></header><div class="content"><div id="view"></div><footer>HóaLab · Website mẫu dành cho học sinh · Tiến độ được lưu trên trình duyệt này</footer></div></main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
